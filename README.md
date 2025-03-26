@@ -3,11 +3,12 @@ Signature Maker Plugin for IDA Pro/Any >= 9.X
 
 ## Requirements
 - IDA Pro/Any Plugin SDK 9.X, Only tested for 9.X, unsure if older versions work
+- Expects a wayland-based system with `wl-copy` in the path. Modify `src/Utils.cpp` if you need to support something different
 
 ## Installation
+adapt the path to the IDA SDK in the `Makefile`, 
+compile with `make`, 
 Drop into plugins folder of your IDA installation.
-
-`%AppData%\Hex-Rays\IDA Pro\plugins`
 
 ## Usage
 In disassembly view, select a line you want to generate a signature for, and press 
