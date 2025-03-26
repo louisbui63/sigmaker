@@ -1,4 +1,4 @@
-# IDA Pro/Any Sigmaker for 9.X
+# IDA Pro/Any Sigmaker for 9.X (On Linux)
 Signature Maker Plugin for IDA Pro/Any >= 9.X
 
 ## Requirements
